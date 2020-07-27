@@ -1,0 +1,65 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.consulta {
+  display: flex;
+  margin: 0 auto;
+  width: 75vw;
+}
+
+.consulta #search-bar {
+  width: 70vw;
+}
+
+.bloco {
+  padding-top: 50px;
+  display: flex;
+}
+
+.bloco #stats,
+#results {
+  margin: 0 20px;
+  border: 1px;
+  border-style: solid;
+  text-align: center;
+}
+
+.bloco #results {
+  width: 50vw;
+}
+.bloco #stats {
+  height: 200px;
+  width: 40vw;
+}
+
+.bloco #stats h2,
+#results h2 {
+  font-size: 30px;
+  margin: 5px 0;
+}
+
+.bloco #results ul {
+  width: 32vw;
+  height: 50px;
+  list-style: none;
+  padding: 10px;
+  padding-bottom: 10px;
+  display: inline-flex;
+}
+
+.bloco #results ul li {
+  vertical-align: middle;
+}
+.bloco #results img {
+  padding-right: 15px;
+}
+.bloco #stats ul {
+  list-style: none;
+  padding: 10px;
+  text-align: start;
+}
+
+.bloco #stats ul li {
+  padding-bottom: 10px;
+}

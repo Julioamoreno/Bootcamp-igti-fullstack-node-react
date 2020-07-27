@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<!-- Compiled and minified CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Cap. 4 - Aula 2</title>
+	</head>
+	<body>
+		<h1>Pesquisa de usuários</h1>
+		<div class="consulta">
+			<label for="search-bar">
+				<input
+					type="text"
+					name="search-bar"
+					id="search-bar"
+					value=""
+				/>
+			</label>
+			<input
+				type="button"
+				value="Buscar"
+				id="btn-pesquisa"
+				class="btn cyan lighten-2"
+			/>
+		</div>
+
+		<div class="bloco">
+			<div id="results">
+				Nenhum usuário filtrado
+			</div>
+
+			<div id="stats">Nada a ser exibido</div>
+		</div>
+
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script defer src="js/script.js"></script>
+	</body>
+</html>
