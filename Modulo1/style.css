@@ -1,0 +1,29 @@
+h1 {
+  font-size: 20px;
+}
+.panel {
+  padding: 10px;
+}
+.panel ul {
+  list-style: none;
+}
+.panel ul li {
+  padding-bottom: 10px;
+}
+.panel ul li label {
+  padding-right: 10px;
+}
+.panel ul li input {
+  align-self: auto;
+  vertical-align: bottom;
+}
+.area {
+  width: auto;
+}
+#quadrado {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border: 1px rgb(10, 10, 10);
+  margin-left: 20vw;
+}
