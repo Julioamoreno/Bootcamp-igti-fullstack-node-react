@@ -1,0 +1,27 @@
+.frame {
+	border: 1px;
+	border-style: solid;
+	width: 160px;
+	position: absolute;
+	display: inline-flex;
+}
+.id {
+	font-weight: bold;
+	float: left;
+	padding-right: 15px;
+	margin: 25% 10px;
+}
+.frameretorno {
+	float: right;
+	font-weight: 600;
+	margin: auto 0;
+}
+.valor,
+.aumentoliquido,
+.aumentopercentual {
+	margin: 5px 0;
+}
+
+.aumentopercentual {
+	text-align: center;
+}
